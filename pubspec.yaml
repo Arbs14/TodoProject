@@ -1,0 +1,31 @@
+name: rkftodo
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/cali.mp3
+    - assets/Bymyside.mp3
+    - assets/Dreamworld.mp3
+    - assets/Righttime.mp3
+    - assets/King.mp3
+    - assets/Neverletgo.mp3
+    - assets/Life.mp3
+
